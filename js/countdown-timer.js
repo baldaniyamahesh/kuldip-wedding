@@ -2,7 +2,7 @@ function countdown(){
     var now = new Date();
     
     // This is where you set the date to count down to in the format (year, month, day).
-    var eventDate = new Date(2021, 12, 12);
+    var eventDate = new Date("12/14/2021");
     
     var currentTime = now.getTime();
     var eventTime = eventDate.getTime();
